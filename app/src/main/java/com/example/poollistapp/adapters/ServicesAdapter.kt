@@ -15,6 +15,7 @@ class ServicesAdapter(private val items:List<Services>):RecyclerView.Adapter<Ser
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ServicesViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.services_single_item,parent,false)
         return ServicesViewHolder(view)
+        //sss
     }
 
     override fun onBindViewHolder(holder: ServicesViewHolder, position: Int) {
